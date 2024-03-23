@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Añado el espacio de nombres de Atom para la compatibilidad-->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <!--Definición del canal de noticias-->
+	<channel>
+	<!--Compatibilidad con Atom-->
+	<atom:link href="http://www.noticias.com/rss.xml" rel="self" type="application/rss+xml"></atom:link>
+	  <title>Naturaleza Infinita</title>
+	  <link>https://www.canalejemplo.com/naturaleza</link>
+	  <description>Noticias sobre actividades al aire libre para los amantes de la naturaleza</description>
+	  <!--Elementos opcionales-->
+	  <language>es-es</language>
+	  <webMaster>anatiradofdez@gmail.com (Ana Tirado)</webMaster>
+	  <image>
+	    <url>https://www.canalejemplo.com/img/logo.png</url>
+	    <title>Naturaleza Infinita</title>
+	    <link>https://www.canalejemplo.com/naturaleza</link>
+	    <description>Imagen representativa de la naturaleza.</description>
+	  </image>
+	  <copyright>Creative Common</copyright>
+	  <!--ENTRADA 1: Las 10 mejores rutas de senderismo-->
+	  <item>
+	    <!--Elementos obligatorios: al menos un título o una descripción-->
+	    <title>Las 10 mejores rutas de senderismo</title>
+	    <description>
+	      <![CDATA[
+	        Las rutas de senderismo en la zona centro-sur o Guadalhorce de Málaga te llevan a descubrir una tierra de contrastes enclavada entre el mar Mediterráneo y las sierras malagueñas. Espacios naturales como la sierra de Mijas, el paraje natural de Los Reales de Sierra Bermeja o el parque nacional Sierra de las Nieves son lugares increíbles que no te puedes perder.
+	      ]]>
+	      </description>
+      <!--Elementos opcionales-->
+      <category>Senderismo</category>
+	    <pubDate>Mon, 22 Jan 2024 10:00:00 +0100</pubDate>
+	    <author>Ana Tirado</author>
+	    <enclosure url="https://d2exd72xrrp1s7.cloudfront.net/www/000/1k7/6z/6zq202pt4agb10r78g7bji2u04fmsjb1u-uhi57089206/0.jpg" length="12345" type="image/jpeg"></enclosure>
+	    <link>https://www.komoot.com/es-es/guide/1775857/rutas-de-senderismo-por-la-zona-centro-sur-o-guadalhorce</link>
+	    <guid>https://www.komoot.com/es-es/guide/1775857/rutas-de-senderismo-por-la-zona-centro-sur-o-guadalhorce</guid>
+	  </item>
+	  <!--ENTRADA 2: Web externa sobre parajes naturales de Málaga-->
+	  <item>
+	  <!--Elementos obligatorios: al menos título o descripción-->
+	    <title>Seis monumentos naturales para visitar en Málaga</title>
+	    <description>
+	      <![CDATA[
+	        En Málaga existen un total de 13 espacios naturales repartidos por la provincia reconocidos como monumentos naturales y protegidos por la Junta de Andalucía, debido al valor científico, cultural o paisajístico que poseen cada uno. Estos parajes ofrecen paisajes únicos y espacios para disfrutar de la amplia oferta de naturaleza que atesora la provincia.
+	      ]]>
+	    </description>
+	    <!--Elementos opcionales-->
+	    <author>Inés Villanueva</author>
+	    <pubDate>Sun, 03 Sep 2023 07:01:00 +0100</pubDate>
+	    <link>https://www.laopiniondemalaga.es/municipios/2023/09/03/seis-monumentos-naturales-visitar-malaga-91496808.html</link>
+	    <enclosure url="https://estaticos-cdn.prensaiberica.es/clip/da3f49c9-b546-4b07-8673-059e2f31b595_16-9-aspect-ratio_default_1245109.webp" length="12345" type="image/jpeg"></enclosure>
+	    <guid>https://estaticos-cdn.prensaiberica.es/clip/da3f49c9-b546-4b07-8673-059e2f31b595_16-9-aspect-ratio_default_1245109.webp</guid>
+	  </item>
+	  <!--ENTRADA 3: Consejos de senderismo-->
+	  <item>
+	  <!--Elementos obligatorios: al menos título o descripción-->
+	    <title>9 consejos de senderismo para principiantes para no rendirse a la primera</title>
+	    <description>
+	      <![CDATA[
+	      Con estas claves de senderismo para principiantes te habituarás a la práctica y le cogerás el gusto.
+	      ]]>
+	    </description>
+	    <!--Elementos opcionales-->
+	    <author>Javier Traité</author>
+	    <pubDate>Tue, 30 May 2023 05:30:00 +0100</pubDate>
+	    <link>https://www.elnacional.cat/es/estilo-vida/9-consejos-senderismo-para-principiantes_1034184_102.html</link>
+	    <enclosure url="https://www.elnacional.cat/uploads/s1/41/95/17/63/senderismo-para-principiantes-2_15_630x420.jpeg" length="12345" type="image/jpeg"></enclosure>
+	    <guid>https://www.elnacional.cat/es/estilo-vida/9-consejos-senderismo-para-principiantes_1034184_102.html</guid>
+	  </item>
+	</channel>
+</rss>

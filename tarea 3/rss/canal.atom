@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Elemento raíz del canal-->
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-es"> <!--Incluimos el idioma como atributo del elemento feed-->
+
+    <!--Elementos obligatorios: title, id y updated-->
+    <title>Naturaleza Infinita</title>
+    <id>https://www.canalejemplo.com/naturaleza</id>
+    <updated>2024-01-22T09:00:00Z</updated>
+    <!--Elementos recomendados: author y link-->
+    <author>
+      <name>Ana Tirado</name>
+      <email>anatiradofdez@gmail.com</email>
+    </author>
+    <!--Link haciendo referencia a la propia página html que contiene el canal y al canal en sí-->
+     <!--<link rel="self" type="application/atom+xml" href="https://educacionadistancia.juntadeandalucia.es/cursos/mod/assign/view.php?id=7732/feed/canal_atom.xml" />
+     <link rel="alternate" type="text/html" href="https://educacionadistancia.juntadeandalucia.es/cursos/mod/assign/view.php?id=7732/index.html" />-->
+     
+    <!--Elementos opcionales-->
+    <logo>https://d2exd72xrrp1s7.cloudfront.net/www/000/1k7/6z/6zq202pt4agb10r78g7bji2u04fmsjb1u-uhi57089206/0.jpg</logo>
+    <subtitle type="text">Noticias sobre actividades al aire libre para disfrutar de la naturaleza y el deporte.</subtitle>
+    
+    <!--Noticias-->
+    
+    <!--ENTRADA 1: Las 10 mejores rutas de senderismo-->
+    <entry>
+      <!--Elementos obligatorios: title. id, updated.-->
+      <title>Las 10 mejores rutas de senderismo</title>
+      <id>https://www.komoot.com/es-es/guide/1775857/rutas-de-senderismo-por-la-zona-centro-sur-o-guadalhorce</id>
+      <updated>2024-01-22T09:00:00Z</updated>
+      
+      <!--Elementos recomendados: author, summary, content, link-->
+      <author>Ana Tirado</author>
+      <category term="senderismo"/>
+      <summary>Las rutas de senderismo en la zona centro-sur o Guadalhorce de Málaga te llevan a descubrir una tierra de contrastes enclavada entre el mar Mediterráneo y las sierras malagueñas. Espacios naturales como la sierra de Mijas, el paraje natural de Los Reales de Sierra Bermeja o el parque nacional Sierra de las Nieves son lugares increíbles que no te puedes perder.</summary>
+      <content type="image/jpeg" src="https://d2exd72xrrp1s7.cloudfront.net/www/000/1k7/6z/6zq202pt4agb10r78g7bji2u04fmsjb1u-uhi57089206/0.jpg"/>
+      <link>https://www.komoot.com/es-es/guide/1775857/rutas-de-senderismo-por-la-zona-centro-sur-o-guadalhorce</link>
+    </entry>
+    
+    <!--ENTRADA 2: Web externa sobre parajes naturales de Málaga-->
+    <entry>
+      <!--Elementos obligatorios: title, id, updated-->
+      <title>Seis monumentos naturales para visitar en Málaga</title>
+      <id>https://www.laopiniondemalaga.es/municipios/2023/09/03/seis-monumentos-naturales-visitar-malaga-91496808.html</id>
+      <updated>2023-09-03T06:01:00Z</updated>
+      
+      <!--Elementos recomendados: author, category, summary, content, link-->
+      <author>Inés Villanueva</author>
+      <category term="senderismo"/>
+      <summary>En Málaga existen un total de 13 espacios naturales repartidos por la provincia reconocidos como monumentos naturales y protegidos por la Junta de Andalucía, debido al valor científico, cultural o paisajístico que poseen cada uno. Estos parajes ofrecen paisajes únicos y espacios para disfrutar de la amplia oferta de naturaleza que atesora la provincia.</summary>
+      <content type="image/jpeg" src="https://estaticos-cdn.prensaiberica.es/clip/da3f49c9-b546-4b07-8673-059e2f31b595_16-9-aspect-ratio_default_1245109.webp"/>
+      <link>https://www.laopiniondemalaga.es/municipios/2023/09/03/seis-monumentos-naturales-visitar-malaga-91496808.html</link>
+    </entry>
+    
+    <!--ENTRADA 3: Consejos de senderismo-->
+    <entry>
+      <!--Elementos obligatorios: title, id, updated-->
+      <title>9 consejos de senderismo para principiantes para no rendirse a la primera</title>
+      <id>https://www.elnacional.cat/es/estilo-vida/9-consejos-senderismo-para-principiantes_1034184_102.html</id>
+      <updated>2023-05-30T04:30:00Z</updated>
+      
+      <!--Elementos recomendados: author, summary, content, link-->
+      <author>Javier Traité</author>
+      <category term="senderismo"/>
+      <summary>Con estas claves de senderismo para principiantes te habituarás a la práctica y le cogerás el gusto.</summary>
+      <content type="image/jpeg" src="https://www.elnacional.cat/uploads/s1/41/95/17/63/senderismo-para-principiantes-2_15_630x420.jpeg"/>
+      <link>https://www.elnacional.cat/es/estilo-vida/9-consejos-senderismo-para-principiantes_1034184_102.html</link>
+    </entry>
+</feed>
